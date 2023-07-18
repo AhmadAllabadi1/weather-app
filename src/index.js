@@ -1,3 +1,5 @@
+import '../style.css';
+
 const submitFormBtn = document.getElementById("submitFormBtn");
 const form = document.getElementById('countryForm');
 const countryInput = document.getElementById('countryInput');
