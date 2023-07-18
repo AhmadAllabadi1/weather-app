@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+    <title><%= htmlWebpackPlugin.options.title%></title>
+</head>
+<body>
+    <form id="countryForm">
+        <button id="submitFormBtn"><i class="fas fa-search"></i></button>
+        <input type="text" id="countryInput" placeholder="Search City" autocomplete="off">
+    </form>
+    <div id="dataContainer">
+        <div class="country"></div>
+        <div class="temperature"></div>
+        <div class="condition">
+            <div class="conditions"></div>
+            <div class="conditionIcon"></div>
+        </div>
+    </div>
+
+    <div id="secondDataContainer">
+        <div class="subsection">
+            <div class="subTitle"> Preciptation
+                <div id="preciptation"></div>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <div class="subTitle"> Wind
+                <div id="wind"></div>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <div class="subTitle"> Humidity
+                <div id="humidity"></div>
+            </div>
+        </div>
+
+        <div class="subsection">
+            <div class="subTitle"> Pressure
+                <div id="pressure"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
